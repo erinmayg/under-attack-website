@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Under Attack</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <div class="nav-container" id="navbar">
+        <div class="wrapper">
+            <nav>
+                <div class="logo">
+                    <ul class="nav-items">
+                        <li><img class="logo" src="img/logo.png"></li>
+                        <li>Apengers Assemble</li>
+                    </ul>
+                </div>
+
+                <ul class="nav-items">
+                    <li>
+                        <a href="/index.html">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="/aboutus.html">About Us</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- <div class="sidebar-container">
+        <nav>
+            <ul class="sidebar-items">
+                <li>
+                    <a href="#">Play Game</a>
+                </li>
+                <li>
+                    <a href="#">About the Game</a>
+                </li>
+                <li>
+                    <a href="#">Game Features</a>
+                </li>
+                <li>
+                    <a href="#">Feedback</a></li>
+            </ul>
+        </nav>
+    </div> -->
+
+    <div class="header-container">
+        <section id="game-title">
+            <div class="wrapper">
+                <div class="game-title">
+                    <img src="img/game-title.png" alt="Under Attack" class="photo">
+                </div>
+
+                <div class="play-online">
+                    <a href="/UnderAttack_WEBGL/index.html">Play Online</a>
+                </div>
+
+                <div class="download-container">
+                    <a href="#">
+                        <img src="img/buttons/Windows.png" onmouseover="this.src='img/buttons/hover/Windows.png'"
+                            onmouseout="this.src='img/buttons/Windows.png'">
+                    </a>
+
+                    <a href="#">
+                        <img src="img/buttons/Mac.png" onmouseover="this.src='img/buttons/hover/Mac.png'"
+                            onmouseout="this.src='img/buttons/Mac.png'">
+                    </a>
+
+                    <a href="#">
+                        <img src="img/buttons/Linux.png" onmouseover="this.src='img/buttons/hover/Linux.png'"
+                            onmouseout="this.src='img/buttons/Linux.png'">
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="about-game-container">
+        <section id="about-game">
+            <div class="wrapper">
+                <div class="game-preview">
+                    <img src="img/level1.gif">
+                </div>
+
+                <div class="about-game-text">
+                    <h1>
+                        About the Game
+                    </h1>
+
+                    <hr>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus ipsum laborum, consequuntur
+                        neque exercitationem animi provident dolorem maiores aperiam. Fugit voluptate iste expedita
+                        officiis quaerat fugiat quasi laudantium architecto ea?
+                    </p>
+
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, consequuntur, dolore eligendi
+                        excepturi fuga impedit labore aut nostrum voluptates tempora ab rerum? Possimus ex atque
+                        veritatis repellat natus, consectetur eligendi.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+    </div>
+
+    <div class="carousel">
+
+        <div class="carousel_track-container">
+            <img src="img/features/Gameplay.png" alt="Gameplay" id="lastClone">
+            <img src="img/features/Game Features.png" alt="Game Features">
+            <img src="img/features/Almanac.png" alt="Almanac">
+            <img src="img/features/Gameplay.png" alt="Gameplay">
+            <img src="img/features/Game Features.png" alt="Game Features" id="firstClone">
+        </div>
+
+        <button id="prevBtn">
+            <img src="img/prev.png" alt="prev">
+        </button>
+
+        
+        <button id="nextBtn">
+            <img src="img/next.png" alt="next">
+        </button>
+
+        <div class="carousel_nav">
+            <button class="carousel_indicator"></button>
+            <button class="carousel_indicator"></button>
+            <button class="carousel_indicator"></button>
+        </div>
+
+    <div class="feedback-container">
+        <div class="wrapper">
+            <img src="img/Worm.gif" alt="worm">
+
+            <div class="feedback-box">
+                <h1>Have a suggestion for us?</h1>
+                <h2>Leave us a feedback!</h2>
+
+                <form action="/target.php">
+                    <h3>Feedback</h3>
+                    <textarea label="feedback"></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
