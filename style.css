@@ -500,6 +500,10 @@ input[type=submit]:hover {
     opacity: 10%;
 }
 
+#prevBtn {
+    left: 0
+}
+
 #nextBtn {
     right: 0;
 }
