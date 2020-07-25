@@ -229,6 +229,13 @@ p {
     margin-bottom: 20pt;
 }
 
+.hidden {
+    font-size: 1.8vw;
+    margin-bottom: 20pt;
+    opacity: 20%;
+}
+
+
 .about-game-text {
     width: 55%;
     float: right;
