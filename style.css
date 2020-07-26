@@ -472,6 +472,42 @@ input[type=submit]:hover {
     margin-right: 2vw;
 }
 
+p i {
+    display: flex;
+}
+
+.changing-text {
+    width: 30%;
+    text-align: left;
+}
+
+span:before {
+    content: '';
+    animation: animate infinite 8s;
+}
+
+@keyframes animate {
+    0% {
+        content: 'cOdInG';
+    }
+
+    25% {
+        content: 'gRaPhIc deSiGn';
+    }
+
+    50% {
+        content: 'sLeEpInG';
+    }
+
+    75% {
+        content: 'nEtFliX';
+    }
+
+    100% {
+        content: 'cOdInG';
+    }
+}
+
 /* Carousel */
 .carousel {
     position: relative;
