@@ -508,6 +508,29 @@ span:before {
     }
 }
 
+span.changing-text-flo:before {
+    content: '';
+    animation: animate-flo infinite 8s;
+}
+
+@keyframes animate-flo {
+    0% {
+        content:'sleep';
+    }
+
+    33% {
+        content: 'food';
+    }
+
+    66% {
+        content: '$$$';
+    }
+
+    100% {
+        content: 'sleep';
+    }
+}
+
 /* Carousel */
 .carousel {
     position: relative;
