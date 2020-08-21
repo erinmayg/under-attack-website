@@ -311,20 +311,20 @@ p {
     color: white;
 }
 
-.feedback-container img {
-    margin-left: 4%;
+#content-desktop {
+    display: flex;
+    position: relative;
+    float: left;
+    margin-left: 15%;
     margin-top: 8%;
-    width: 30%;
-
-    bottom: 0;
+    width: 25%;
+    bottom: 0px;
 }
 
 .feedback-box {
-    width: 60%;
-    float: right;
-
-    margin-top: 12%;
-    margin-bottom: 8%;
+    width: 100%;
+    position: relative;
+    margin-top: 20%;
     text-align: left;
 }
 
@@ -349,59 +349,28 @@ p {
     opacity: 65%;   
 }
 
-.feedback-box h3 {
-    font-family: Roboto Slab;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 2.5vw;
-    letter-spacing: normal;
-
-    text-transform: none;
-
-    margin-top: 8%;
-}
-
-textarea {
+.feedback-box iframe {
+    display: flex;
+    float: left;
     width: 100%;
-    height: 18vw;
-
-    padding: 2% 2%;
-    margin-top: 4%;
-
-    font-family: Roboto Slab;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 2vw;
-    letter-spacing: normal;
-
-    text-transform: none;
-    text-align: left;
-    color: whitesmoke;
-
-    background-color: #404040;
-    border: none;
+    height: 500px;
+    overflow: visible;
+    bottom: 0;
 }
 
-input[type=submit] {
-    border-radius: 10px;
-    border-width: 0.3vw;
-    border-color: #610368;
+@media screen and (max-width: 768px) {
+    #content-desktop {
+        display: none;
+        width: 0%;
+    }
 
-    padding: 3%;
-    margin-top: 4%;
-    margin-bottom: 4%;
-    background: none;
-
-    font-family: Roboto Slab;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 2vw;
-    letter-spacing: 0.3vw;
-    color: white;
-}
-
-input[type=submit]:hover {
-    background: #610368;
+    .feedback-box iframe {
+        display: flex;
+        width: 110%;
+        height: 600px;
+        overflow: visible;
+        bottom: 0;
+    }
 }
 
 /* About Us  */
